@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Permanent Marker', sans-serif;
-    font-size: 21px;
+    font-size: 27px;
     font-weight: normal;
     margin:0;
     padding:0;
@@ -96,9 +96,9 @@ svg {
 .Art1:hover{
     opacity: 65%;
 }
-.Art1:hover > .s-1{
+/* .Art1:hover > .s-1{
     display: block;
-}
+} */
 
 .Art2 {
     background-image: url("Papaya.jpg");
@@ -119,9 +119,9 @@ svg {
 .Art2:hover{
     opacity: 65%;
 }
-.Art2:hover > .s-2{
+/* .Art2:hover > .s-2{
     display: block;
-}
+} */
 
 .Art3 {
     background-image: url("Cherry.jpg");
@@ -144,9 +144,9 @@ svg {
 .Art3:hover{
     opacity: 65%;
 }
-.Art3:hover > .s-3{
+/* .Art3:hover > .s-3{
     display: block;
-}
+} */
 
 
 .Art4{
@@ -170,10 +170,10 @@ svg {
     opacity: 65%;
 
 }
-.Art4:hover > .s-4{
+/* .Art4:hover > .s-4{
     display: block;
 
-}
+} */
 
 .Art5 {
     background-image: url("Cookies.jpg");
@@ -195,9 +195,9 @@ svg {
 .Art5:hover{
     opacity: 65%;
 }
-.Art5:hover > .s-5{
+/* .Art5:hover > .s-5{
     display: block;
-}
+} */
 
 .Art6 {
     background-image: url("Veggie.JPG");
@@ -218,9 +218,9 @@ svg {
 .Art6:hover{
     opacity: 65%;
 }
-.Art6:hover > .s-6{
+/* .Art6:hover > .s-6{
     display: block;
-}
+} */
 
 
 
@@ -317,6 +317,8 @@ svg {
         flex-direction: row;
         flex-wrap: wrap;
         width:100%;
+        max-width: 1300px;
+        margin:auto;
       }
       .sneakers div{
         flex-grow: 1;
